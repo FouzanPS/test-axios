@@ -8,8 +8,8 @@ const API_URL = "https://secrets-api.appbrewery.com";
 //TODO 1: Fill in your values for the 3 types of auth.
 const yourUsername = "fouzan";
 const yourPassword = "fouzanop";
-const yourAPIKey = "5401d8cf-b9d7-4af7-9e37-32bd18fad9ab";
-const yourBearerToken = "923a3b68-7a29-4c5f-954a-1bfec2888a85";
+const yourAPIKey = "dc5b14b0-fae2-4315-b1d2-921bdfbb73f0";
+const yourBearerToken = "34ebdd29-01c5-4efc-b091-176f499a8e35";
 
 app.get("/", (req, res) => {
   res.render("index.ejs", { content: "API Response." });
